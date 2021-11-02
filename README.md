@@ -17,18 +17,16 @@ Android上专为视频直播打造的轻量级弹幕库（100多kb）
 
 在Module中的build.gradle文件里，添加以下依赖：
 ```
-allprojects {
-    repositories {
-        jcenter()
-        mavenCentral() // 切记要添加这个
+	allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
 
-        maven {
-            url 'https://dl.bintray.com/hpdx/maven/'
-        }
-    }
-}
-
-compile 'com.anbetter:danmukulight:1.0.1'
+    dependencies {
+	        implementation 'com.github.Blankyn:DanmukuLight:-SNAPSHOT'
+	}
 ```
 
 在xml中添加
@@ -114,6 +112,3 @@ mDanMuContainerBroadcast.hideAllDanMuView(hide); // boolean
              }
         });
 ```
-
-## 在使用过程中有遇到bug，欢迎提issuse ! 若你觉得还不错，请点Star, 谢谢！
-

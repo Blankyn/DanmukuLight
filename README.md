@@ -4,8 +4,6 @@ Android上专为视频直播打造的轻量级弹幕库（100多kb）
 ## demo运行后的效果如下：
 <img src="https://github.com/hpdx/DanmukuLight/blob/master/result_image.jpg" width="320px" />
 
-[下载示例Apk](https://github.com/hpdx/DanmukuLight/blob/master/danmuku.apk)
-
 
 ## 目前支持以下需求
 * 继承自View实现的DanMuView（直播间的弹幕，推荐使用这种）
@@ -31,7 +29,7 @@ Android上专为视频直播打造的轻量级弹幕库（100多kb）
 
 在xml中添加
 ```
-        <com.anbetter.danmuku.DanMuView
+        <me.blankm.danmuku.DanMuView
             android:id="@+id/danmaku_container_broadcast"
             android:layout_width="match_parent"
             android:layout_height="80dp"/>

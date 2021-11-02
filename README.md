@@ -3,8 +3,8 @@
 Android上专为视频直播打造的轻量级弹幕库（100多kb）
 
 ## demo运行后的效果如下：
+<img src="https://github.com/Blankyn/DanmukuLight/blob/master/result_image.jpg" width="320px" />
 
-https://github.com/hpdx/DanmukuLight/blob/master/danmuku.apk)
 
 ## 目前支持以下需求
 
@@ -20,24 +20,24 @@ https://github.com/hpdx/DanmukuLight/blob/master/danmuku.apk)
 ```
 allprojects {
     repositories {
-        jcenter()
-        mavenCentral() // 切记要添加这个
-
-        maven {
-            url 'https://dl.bintray.com/hpdx/maven/'
-        }
+        ...
+		maven { url 'https://jitpack.io' }
     }
 }
 
-compile 'com.anbetter:danmukulight:1.0.1'
+dependencies {
+	    implementation 'com.github.Blankyn:DanmukuLight:V1.0'
+}
 ```
 
 在xml中添加
 
 ```xml
 
-<me.blankm.danmuku.DanMuView android:id="@+id/danmaku_container_broadcast"
-    android:layout_width="match_parent" android:layout_height="80dp" />
+<me.blankm.danmuku.DanMuView 
+    android:id="@+id/danmaku_container_broadcast"
+    android:layout_width="match_parent" 
+    android:layout_height="80dp" />
 ```
 
 注：每条弹道的高度目前为40dp
@@ -96,12 +96,16 @@ mDanMuContainerBroadcast.hideAllDanMuView(hide); // boolean
 
 ```xml
 
-<me.blankm.danmuku.DanMuParentView android:id="@+id/dpv_broadcast"
-    android:layout_width="match_parent" android:layout_height="wrap_content"
+<me.blankm.danmuku.DanMuParentView 
+    android:id="@+id/dpv_broadcast"
+    android:layout_width="match_parent" 
+    android:layout_height="wrap_content"
     android:layout_marginTop="30dp">
 
-    <me.blankm.danmuku.DanMuView android:id="@+id/danmaku_container_broadcast"
-        android:layout_width="match_parent" android:layout_height="80dp" />
+    <me.blankm.danmuku.DanMuView 
+        android:id="@+id/danmaku_container_broadcast"
+        android:layout_width="match_parent" 
+        android:layout_height="80dp" />
 
 </me.blankm.danmuku.DanMuParentView>
 ```
@@ -111,10 +115,10 @@ mDanMuContainerBroadcast.hideAllDanMuView(hide); // boolean
 ```java
         danMuView.enableTouch(true);
         danMuView.setOnTouchCallBackListener(new OnDanMuTouchCallBackListener(){
-@Override
-public void callBack(DanMuModel danMuView){
+                @Override
+                public void callBack(DanMuModel danMuView){
 
-        }
+                }
         });
 ```
 

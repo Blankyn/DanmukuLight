@@ -1,4 +1,4 @@
-package com.blankm.danmuku.demo.model;
+package me.blankm.danmuku.demo.model;
 
 import android.os.Parcel;
 import android.os.Parcelable;

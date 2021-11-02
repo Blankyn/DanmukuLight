@@ -1,4 +1,4 @@
-package com.blankm.danmuku.demo.model;
+package me.blankm.danmuku.demo.model;
 
 import android.content.Context;
 import android.graphics.Bitmap;

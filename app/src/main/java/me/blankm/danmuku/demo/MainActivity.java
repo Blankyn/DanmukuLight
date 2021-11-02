@@ -1,8 +1,7 @@
-package com.blankm.danmuku.demo;
+package me.blankm.danmuku.demo;
 
 import android.os.Bundle;
 import android.view.View;
-import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.ImageView;
 
@@ -11,7 +10,9 @@ import me.blankm.danmuku.DanMuView;
 import me.blankm.danmuku.model.DanMuModel;
 import me.blankm.danmuku.view.OnDanMuTouchCallBackListener;
 
-import com.blankm.danmuku.demo.model.DanmakuEntity;
+import com.blankm.danmuku.demo.R;
+
+import me.blankm.danmuku.demo.model.DanmakuEntity;
 import com.bumptech.glide.Glide;
 import com.google.gson.Gson;
 

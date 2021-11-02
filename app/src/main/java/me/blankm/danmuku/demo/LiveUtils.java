@@ -1,7 +1,4 @@
-package com.blankm.danmuku.demo;
-
-import android.content.Context;
-import android.content.res.Resources;
+package me.blankm.danmuku.demo;
 
 /**
  * Created by weipeng on 16/8/16.

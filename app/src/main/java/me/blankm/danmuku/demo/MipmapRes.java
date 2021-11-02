@@ -1,5 +1,7 @@
-package com.blankm.danmuku.demo;
+package me.blankm.danmuku.demo;
 
+
+import com.blankm.danmuku.demo.R;
 
 /**
  * Created by Administrator on 2016/3/17.

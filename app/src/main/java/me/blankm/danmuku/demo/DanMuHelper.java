@@ -1,4 +1,4 @@
-package com.blankm.danmuku.demo;
+package me.blankm.danmuku.demo;
 
 import android.content.Context;
 import android.graphics.Bitmap;
@@ -12,8 +12,10 @@ import android.text.Spanned;
 import android.text.style.ForegroundColorSpan;
 
 
-import com.blankm.danmuku.demo.model.DanmakuEntity;
-import com.blankm.danmuku.demo.model.RichTextParse;
+import com.blankm.danmuku.demo.R;
+
+import me.blankm.danmuku.demo.model.DanmakuEntity;
+import me.blankm.danmuku.demo.model.RichTextParse;
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.load.engine.DiskCacheStrategy;
 import com.bumptech.glide.request.RequestOptions;

@@ -26,7 +26,7 @@ allprojects {
 }
 
 dependencies {
-	    implementation 'com.github.Blankyn:DanmukuLight:V1.4'
+	    implementation 'com.github.Blankyn:DanmukuLight:V1.5'
 }
 ```
 

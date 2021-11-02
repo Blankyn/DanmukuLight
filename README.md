@@ -90,18 +90,18 @@ mDanMuContainerBroadcast.hideAllDanMuView(hide); // boolean
 
 在xml中添加DanMuParentView
 ```
- <com.anbetter.danmuku.DanMuParentView
+ <me.blankm.danmuku.DanMuParentView
         android:id="@+id/dpv_broadcast"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp">
 
-        <com.anbetter.danmuku.DanMuView
+        <me.blankm.danmuku.DanMuView
             android:id="@+id/danmaku_container_broadcast"
             android:layout_width="match_parent"
             android:layout_height="80dp"/>
 
-    </com.anbetter.danmuku.DanMuParentView>
+    </me.blankm.danmuku.DanMuParentView>
 ```
 
 在构建弹幕对象的代码中添加

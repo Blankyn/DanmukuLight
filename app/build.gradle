@@ -5,7 +5,7 @@ android {
     buildToolsVersion "30.0.3"
 
     defaultConfig {
-        applicationId "com.anbetter.danmuku.demo"
+        applicationId "me.blankm.danmuku.demo"
         minSdkVersion 23
         targetSdkVersion 30
         versionCode 1
@@ -30,7 +30,6 @@ dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation project(':danmukulight')
 
-//    implementation 'com.facebook.fresco.helper:fresco-helper:2.4.0'
     implementation 'com.google.code.gson:gson:2.8.6'
     implementation 'androidx.appcompat:appcompat:1.2.0'
 

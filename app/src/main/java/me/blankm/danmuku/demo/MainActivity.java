@@ -10,7 +10,7 @@ import me.blankm.danmuku.DanMuView;
 import me.blankm.danmuku.model.DanMuModel;
 import me.blankm.danmuku.view.OnDanMuTouchCallBackListener;
 
-import com.blankm.danmuku.demo.R;
+import me.blankm.danmuku.demo.R;
 
 import me.blankm.danmuku.demo.model.DanmakuEntity;
 import com.bumptech.glide.Glide;

@@ -12,7 +12,7 @@ import android.text.style.ForegroundColorSpan;
 
 import androidx.core.content.ContextCompat;
 
-import com.blankm.danmuku.demo.R;
+import me.blankm.danmuku.demo.R;
 
 import java.util.ArrayList;
 

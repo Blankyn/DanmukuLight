@@ -12,7 +12,7 @@ import android.text.Spanned;
 import android.text.style.ForegroundColorSpan;
 
 
-import com.blankm.danmuku.demo.R;
+import me.blankm.danmuku.demo.R;
 
 import me.blankm.danmuku.demo.model.DanmakuEntity;
 import me.blankm.danmuku.demo.model.RichTextParse;
